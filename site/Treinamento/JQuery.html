@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- Title here -->
+    <title>Treinamento - JQuery</title>
+    <!-- Description, Keywords and Author -->
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your,Keywords">
+    <meta name="author" content="ResponsiveWebInc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles -->
+    <!-- Bootstrap CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/stylesheet.css" rel="stylesheet">
+    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+    <link rel="stylesheet" href="../css/settings.css" media="screen" />
+    <!-- Pretty Photo CSS -->
+    <link href="../css/prettyPhoto.css" rel="stylesheet">
+    <!-- Parallax slider -->
+    <link rel="stylesheet" href="../css/slider.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../css/flexslider.css">
+    <!-- Font awesome CSS -->
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+    <!-- Colors - Orange, Purple, Light Blue (lblue), Red, Green and Blue -->
+    <link href="../css/lblue.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/favicon/favicon.png">
+
+    <link href="../js/jquery.js">
+</head>
+
+<body>
+<!-- Header Starts -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <div class="logo">
+                    <a href="../index.html"><img src="http://cdn.vegasoft.com.br/Vegasoft_financeiro.jpg"></a>
+                    <div class="hmeta">Tecnologia da informação</div>
+                </div>
+            </div>
+            <div class="col-md-5 col-md-offset-3 col-sm-6 col-sm-offset-2">
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Navigation bar begins -->
+<div class="navbar bs-docs-nav" role="banner" style="background: #1da2e2;">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <!-- Refer Bootstrap navbar doc -->
+                <li><a href="../quem_somos.html">A Empresa</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../Servicos/OutSourcing.html">OutSourcing</a></li>
+                        <li><a href="../Servicos/Sistema_de_Gestao_PME.html">Sistema de Gestão PME</a></li>
+                        <li><a href="../Servicos/Consultoria.html">Consultoria</a></li>
+                        <li><a href="../Servicos/Licenciamento_Microsoft.html">Licenciamento Microsoft</a></li>
+                        <li><a href="../Servicos/Cloud_Computing.html">Cloud Computing</a></li>
+                    </ul>
+                </li>
+                <li><a href="../Produtos.html">Produtos</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Treinamentos <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="CSharp_Basico.html">C# Básico</a></li>
+                        <li><a href="Html5.html">HTML 5</a></li>
+                        <li><a href="Css3.html">CSS 3</a></li>
+                        <li><a href="JQuery.html">JQuery</a></li>
+                        <li><a href="ASP.net_MVC.html">ASP.net MVC</a></li>
+                    </ul>
+                </li>
+                <li><a href="../Parcerias.html">Parceiros</a></li>
+                <li><a href="../Contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</div> <!-- Navigation bar ends -->
+
+<div class="content texto_justificado">
+    <div class="container">
+        <h2>HTML 5</h2>
+        <hr />
+        <div class="contact">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <p>Com essa tecnologia, juntamente com CSS 3 e HTML 5 é possivel criar praticamente
+                        qualquer coisa para internet, desde simples cadastros ou sites
+                        para exibição, até sites mais complexos com
+                        animações e interações.<a onclick="MostrarCampos()" class="link_saiba_mais"> Saiba Mais.</a></p>
+                </div><br/><br/><br/><br/>
+                <div class="col-md-12 col-sm-12">
+                    <a class="link_inscreva-se" id="link_inscreva-se" href="http://vegasoft-treinamento.cloudapp.net/?caminho=css3">Inscreva-se</a>
+                </div>
+                <br/><br/><br/>
+                <div id ="camposAdicionais" class="col-md-12 col-sm-12" style="visibility: hidden">
+                    <h4>JQuery</h4>
+                </div>
+                <div id ="camposAdicionais" class="col-md-6 col-sm-6" style="visibility: hidden">
+                    <ul>
+                        <li>
+                            <div class="panel-group events" id="accordion1">
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapse1" class="fa fa-plus collapsed"> Introdução</a>
+                                    </div>
+                                    <div id="collapse1" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul id="lista">
+                                                <li>Definições e conceitos</li>
+                                                <li>Quais as vantagens de se usar CSS?</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="panel-group events" id="accordion2">
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse2" class="fa fa-plus collapsed"> Ambiente de trabalho</a>
+                                    </div>
+                                    <div id="collapse2" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul id="lista">
+                                                <li>Sublime Text</li>
+                                                <li>Visual Studio</li>
+                                                <li>Google Chrome Canary e Firefox</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="panel-group events" id="accordion3">
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion3" href="#collapse3" class="fa fa-plus collapsed"> Sintaxe</a>
+                                    </div>
+                                    <div id="collapse3" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul id="lista">
+                                                <li>Anatomia de uma regra CSS</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="panel-group events" id="accordion4">
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion4" href="#collapse4" class="fa fa-plus collapsed"> Formas de se aplicar CSS</a>
+                                    </div>
+                                    <div id="collapse4" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul id="lista">
+                                                <li>Método inline (usando atributo style)</li>
+                                                <li>Usando Stylesheet</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="panel-group events" id="accordion5">
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion5" href="#collapse5" class="fa fa-plus collapsed"> Seletores</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="panel-group events" id="accordion6">
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion6" href="#collapse6" class="fa fa-plus collapsed"> Posicionamento de elementos</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id ="camposAdicionais" class="col-md-6 col-sm-6" style="visibility: hidden">
+                    <ul>
+                        <li>
+                            <div class="panel-group events" id="accordion7">
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion7" href="#collapse7" class="fa fa-plus collapsed"> Unidades de medida</a>
+                                    </div>
+                                    <div id="collapse7" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul id="lista">
+                                                <li>Absolutas (pixel)</li>
+                                                <li>Relativas (porcentagem)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="panel-group events" id="accordion8">
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion8" href="#collapse8" class="fa fa-plus collapsed"> Cores</a>
+                                    </div>
+                                    <div id="collapse8" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul id="lista">
+                                                <li>Color</li>
+                                                <li>Hexadecimal</li>
+                                                <li>RGB (RGBA)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="panel-group events" id="accordion9">
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion9" href="#collapse9" class="fa fa-plus collapsed"> Opacidade</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="panel-group events" id="accordion10">
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion10" href="#collapse10" class="fa fa-plus collapsed"> Background</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="panel-group events" id="accordion11">
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion10" href="#collapse11" class="fa fa-plus collapsed"> Fontes</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="panel-group events" id="accordion12">
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion10" href="#collapse12" class="fa fa-plus collapsed"> Bootstrap</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <br/>
+                <div id ="camposAdicionais" class="col-md-12 col-sm-12" style="visibility: hidden">
+                    <p>Clique nos temas para maiores informações.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="social-links">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="big"><span>Siga-nos no</span>
+                    <a href="https://www.facebook.com/VegasoftTecnologia?fref=ts"><i class="fa fa-facebook"></i>Facebook</a>
+                    <a href="https://twitter.com/VegasoftTi"><i class="fa fa-twitter"></i>Twitter</a>
+                    <a href="http://www.linkedin.com/company/2495679?trk=tyah&trkInfo=tarId%3A1397672434891%2Ctas%3Avegasoft%2Cidx%3A1-2-2"><i class="fa fa-linkedin"></i>LinkedIn</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="copy">
+                    <p>Copyright &copy;
+                        <a href="../index.html">Vegasoft.com.br</a> -
+                        <a href="../index.html">Inicio</a> |
+                        <a href="../quem_somos.html">Sobre</a> |
+                        <a href="../Contato.html">Contato</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</footer>
+<!-- Javascript files -->
+<!-- jQuery -->
+<script src="../js/jquery.js"></script>
+<!-- Bootstrap JS -->
+<script src="../js/bootstrap.min.js"></script>
+<!-- Isotope for gallery -->
+<script src="../js/jquery.isotope.js"></script>
+<!-- prettyPhoto for images -->
+<script src="../js/jquery.prettyPhoto.js"></script>
+<!-- Parallax slider -->
+<script src="../js/jquery.cslider.js"></script>
+<script src="../js/modernizr.custom.28468.js"></script>
+<!-- Filter for support page -->
+<script src="../js/filter.js"></script>
+<!-- Cycle slider -->
+<script src="../js/cycle.js"></script>
+<!-- Flex slider -->
+<script src="../js/jquery.flexslider-min.js"></script>
+<!-- Easing -->
+<script src="../js/easing.js"></script>
+<!-- Respond JS for IE8 -->
+<script src="../js/respond.min.js"></script>
+<!-- HTML5 Support for IE -->
+<script src="../js/html5shiv.js"></script>
+<!-- Custom JS -->
+<script src="../js/custom.js"></script>
+
+<script>
+    MostrarCampos = function(){
+        $('[id=camposAdicionais]').css('visibility','visible');
+    };
+
+    $(document).ready(function(){
+        $('[id=camposAdicionais]').find('[data-toggle]').each(function(){
+            $(this).css('color','#676767');
+
+            $(this).click(function(){
+                if($(this).attr('class').toString().indexOf('fa fa-plus') >= 0){
+                    $(this).removeClass('fa-plus');
+                    $(this).addClass('fa-minus');
+                }
+
+                if($(this).attr('class').toString().indexOf('fa fa-minus') >= 0){
+                    $(this).removeClass('fa-minus');
+                    $(this).addClass('fa-plus');
+                }
+            });
+        });
+    });
+</script>
+
+</body>
+
+
+</html>

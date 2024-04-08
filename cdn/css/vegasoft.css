@@ -1,0 +1,12 @@
+.texto_justificado{
+    text-align: justify;
+}
+
+ul#lista{
+    list-style-type: disc;
+    margin-left: 50px;
+}
+
+img#mapa{
+    height: 500px;
+}

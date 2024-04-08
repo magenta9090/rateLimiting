@@ -1,0 +1,226 @@
+html, body {
+	height:10px;
+}
+
+div#tamanho_pagina{
+    height: 1150px;
+    margin-bottom: -150px;
+}
+
+.carousel,
+.item,
+.active {
+	height:670px;
+
+}
+
+.carousel-inner {
+	height:80%;
+}
+
+.fill {
+	width:1200px;
+	height:10%;
+	background-position: center;
+	background-size: cover;
+    padding: 20px;
+    margin-left: 30%;
+    margin-top: 20px;
+
+}
+
+.section {
+	margin: 50px 0;
+}
+
+footer {
+	margin-bottom: 50px;
+
+}
+
+.carousel-caption h1, h2  {
+	color: black;
+}
+
+h3{
+    font-size: 20px;
+}
+
+div#matricula{
+    margin-left: -600px;
+    text-align: center;
+    margin-top: 350px;
+}
+
+img#logo{
+    width: 100px;
+    height: 150px;
+}
+
+img#img_slider1{
+    width: 250px;
+    margin-top: 25px;
+}
+
+img#img_slider2{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 250px;
+}
+
+img#img_slider3{
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 250px;
+}
+div#conteudo_slider1{
+    margin-left: -150px;
+    margin-top: 75px;
+
+}
+
+div#conteudo_slider1 div#paragrafo_slider1{
+    margin-left: -75px;
+    margin-top: -25px;
+}
+
+a#saiba_slider1{
+    font-size: 20px;
+    width: 250px;
+}
+
+
+
+
+div#paragrafo_slider2{
+    margin-top: 30px;
+}
+nav#menu_principal{
+    background-color: rgb(30, 153, 225);
+    width: 100%;
+    border-width: 0px;
+}
+nav#menu_principal a{
+    color: #ffffff;
+}
+
+div#borda_esquerda{
+    background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(29, 124, 192,1)), to(rgba(0, 0, 150, 0.0001)));
+    background-image: -webkit-linear-gradient(left, color-stop(rgba(129, 124, 192,1) 0), color-stop(rgba(0, 0, 150, 0.0001) 100%));
+    background-image: -moz-linear-gradient(left, rgba(29, 124, 192,1) 0, rgba(0, 0, 150, 0.0001) 100%);
+    background-image: linear-gradient(to right, rgba(29, 124, 192,1) 0, rgba(0, 0, 150, 0.0001) 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    margin-left: -15.5px;
+    margin-top: -308px;
+    height: 1500px;
+    width: 7.1%;
+
+}
+div#borda_direita{
+    margin-top: -1578px;
+    margin-left: 93%;
+    width: 7%;
+    height: 1500px;
+    background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 150, 0.0001)), to(rgba(29, 124, 192,1)));
+    background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 150, 0.0001) 0), color-stop(rgba(29, 124, 192,1) 100%));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 150, 0.0001) 0, rgba(29, 124, 192,1) 100%);
+    background-image: linear-gradient(to right, rgba(0, 0, 150, 0.0001) 0, rgba(29, 124, 192,1) 100%);
+    background-repeat: repeat-x;
+}
+a#link_informacoes{
+    display: block;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 29%;
+    width: 250px;
+    font-size: 20pt;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border-width: 1px;
+    background-color: #8db34a;
+    text-align: center;
+    transition: background-color 0.5s;
+    color: #ffffff;
+    text-decoration: none;
+}
+a#link_informacoes:hover{
+    text-decoration: none;
+    background-color: rgb(16,158,35);
+    transition: background-color 0.5s;
+}
+
+div#conteudo{
+    margin-top: 80px;
+
+
+}
+div#conteudo_esquerda{
+    margin-top: -19px;
+    margin-left: 3%;
+}
+
+ol#lista_meio{
+    width: 400px;
+    margin-left: -20%;
+    margin-top: -27%;
+}
+
+ol#lista_meio li{
+    margin-left: 41%;
+}
+
+ol#lista_direita{
+    width: 400px;
+}
+
+ol#lista_direita li{
+   margin-left: 20.0%;
+    margin-top: -100px;
+    padding-bottom: 100px;
+    width: 400px;
+}
+
+ol#lista_esquerda ul li{
+    margin-left: 0%;
+    width: 400px;
+}
+p#textofooter{
+    margin-top: 930px;
+    margin-left: -200px;
+}
+div.container a{
+    text-decoration: none ;
+}
+div.container a:hover{
+    text-decoration: underline;
+}
+
+h2#titulo_Conteudo{
+    width: 600px;
+text-align: left;
+    margin-left: 33%;
+    font-size: 40pt;
+    margin-bottom: 75px;
+    margin-top: 50px;
+}
+h2#titulo_Conteudo_lista_meio{
+    text-align: center;
+}
+
+div#titulos{
+    margin-bottom: 100px;
+}
+
+div#titulo_lista1{
+    margin-left: -5%;
+}
+div#titulo_lista2{
+    margin-left: 4.5%;
+}div#titulo_lista3{
+     margin-left: 0%;
+ }
+
+
